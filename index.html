@@ -43,34 +43,215 @@
 
     <!-- Botones grid -->
     <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item">
-            <span><button class="btn btn-link btn-icon active" id="pills-grid3-tab" data-bs-toggle="pill"
-                    data-bs-target="#pills-grid3" type="button" role="tab" aria-controls="pills-grid3"><i
-                        class="fa-solid fa-table-cells text-primary"></i>
-                </button></span>
+        <li class="nav-item" role="presentation">
+            <button class="btn btn-link btn-icon active" id="pills-grid3-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-grid3" type="button" role="tab" aria-controls="pills-grid3" aria-selected="true">
+                <i class="fa-solid fa-table-cells text-primary"></i>
+            </button>
         </li>
-        <li class="nav-item">
-            <span><button class="btn btn-link btn-icon" id="pills-grid1-tab" data-bs-toggle="pill"
-                    data-bs-target="#pills-grid1" type="button" role="tab" aria-controls="pills-grid1"><i
-                        class="fas fa-square text-primary"></i></button></span>
+        <li class="nav-item" role="presentation">
+            <button class="btn btn-link btn-icon" id="pills-grid1-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-grid1" type="button" role="tab" aria-controls="pills-grid1"
+                aria-selected="false">
+                <i class="fas fa-square text-primary"></i>
+            </button>
         </li>
     </ul>
+
+    <!-- Contenido de las pestañas -->
     <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade" id="pills-grid3" role="tabpanel" aria-labelledby="pills-grid3-tab">
-            <div class="row bg-primary">
-                <h1>TEST</h1>
+        <!-- Grid 1 -->
+        <div class="tab-pane fade" id="pills-grid1" role="tabpanel" aria-labelledby="pills-grid1-tab">
+            <div class="row justify-content-center mt-3 mb-3">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card border-gray">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold">Sushi, la novata</h5>
+                            <p class="card-text text-end">11/27</p>
+                        </div>
+
+                        <img src="images/image1.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text fw-bold">908 Likes</p>
+                            <p class="card-text text-muted">Esta es "Sushi", mi gata naranja, rescatada de la calle y
+                                actualmente tiene 2 añitos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2 mb-2">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card border-gray">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold">Misty, la abuela</h5>
+                            <p class="card-text text-end">11/24</p>
+                        </div>
+                        <img src="images/image2.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text fw-bold">1,023 Likes</p>
+                            <p class="card-text text-muted">Esta es Misty, tenia 19 años pero murió recientemente debido
+                                a
+                                un cáncer pulmonar. Vuela alto, te echaremos de menos...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2 mb-2">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card border-gray">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold">Gatete, el veterano</h5>
+                            <p class="card-text text-end">11/22</p>
+                        </div>
+                        <img src="images/image3.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text fw-bold">983 Likes</p>
+                            <p class="card-text text-muted">Este es "Joestar"... Ideas de mi hermana con el nombre en el
+                                veterinario, todos le llamamos Gatete, es el mediano de la familia y un poco vago y
+                                gordo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2 mb-2">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card border-gray">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold">Explorando la lavanderia</h5>
+                            <p class="card-text text-end">12/10</p>
+                        </div>
+                        <img src="images/image4.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text fw-bold">628 Likes</p>
+                            <p class="card-text text-muted">Hoy misty ha decidido hacer la colada conmigo y ayudarme,
+                                siempre vigilando</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2 mb-2">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card border-gray">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold">Ulf, el caballo</h5>
+                            <p class="card-text text-end">10/10</p>
+                        </div>
+                        <img src="images/image5.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text fw-bold">952 Likes</p>
+                            <p class="card-text text-muted">El caballo de mi hermana, tiene ya unos cuantos añitos y lo
+                                ha pasado mal en ocasiones, pero creo que ese caballo nos enterrará a todos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3 mb-3">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card border-gray">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold">Hora de la siesta</h5>
+                            <p class="card-text text-end">08/09</p>
+                        </div>
+
+                        <img src="images/image6.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text fw-bold">789 Likes</p>
+                            <p class="card-text text-muted">Hoy Sushi se puso a mimir encima mia, parece que me amenaza
+                                con sus garritas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3 mb-3">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card border-gray">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold">Bobo</h5>
+                            <p class="card-text text-end">02/09</p>
+                        </div>
+
+                        <img src="images/image7.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text fw-bold">241 Likes</p>
+                            <p class="card-text text-muted">Gatete en su momento... más...? menos...? inteligente?...
+                                Gatete siendo Gatete</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3 mb-3">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card border-gray">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold">La reina</h5>
+                            <p class="card-text text-end">06/06</p>
+                        </div>
+
+                        <img src="images/image8.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text fw-bold">693 Likes</p>
+                            <p class="card-text text-muted">Un día antes de su cumpleaños, se le ve feliz mirando a los
+                                pajaritos, me dejó sacarle esta pedazo de foto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3 mb-3">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card border-gray">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="card-title fw-bold">Pajaritos</h5>
+                            <p class="card-text text-end">06/06</p>
+                        </div>
+
+                        <img src="images/image9.jpg" class="img-fluid">
+                        <div class="card-body">
+                            <p class="card-text fw-bold">1524 Likes</p>
+                            <p class="card-text text-muted">Le pierden los pajaritos...</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="pills-grid1" role="tabpanel" aria-labelledby="pills-grid1-tab">
-            <div class="row bg-danger">
-                <h1>TEST</h1>
+
+        <!-- Grid 3 -->
+        <div class="tab-pane fade show active" id="pills-grid3" role="tabpanel" aria-labelledby="pills-grid3-tab">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-2">
+                            <img src="images/image1.jpg" class="img-fluid" alt="Imagen del post">
+                        </div>
+                        <div class="col mb-2">
+                            <img src="images/image2.jpg" class="img-fluid" alt="Imagen del post">
+                        </div>
+                        <div class="col mb-2">
+                            <img src="images/image3.jpg" class="img-fluid" alt="Imagen del post">
+                        </div>
+                        <div class="col mb-2">
+                            <img src="images/image4.jpg" class="img-fluid" alt="Imagen del post">
+                        </div>
+                        <div class="col mb-2">
+                            <img src="images/image5.jpg" class="img-fluid" alt="Imagen del post">
+                        </div>
+                        <div class="col mb-2">
+                            <img src="images/image6.jpg" class="img-fluid" alt="Imagen del post">
+                        </div>
+                        <div class="col mb-2">
+                            <img src="images/image7.jpg" class="img-fluid" alt="Imagen del post">
+                        </div>
+                        <div class="col mb-2">
+                            <img src="images/image8.jpg" class="img-fluid" alt="Imagen del post">
+                        </div>
+                        <div class="col mb-2">
+                            <img src="images/image9.jpg" class="img-fluid" alt="Imagen del post">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container mt-4">
-        <!-- Imagenes -->
-    </div>
 
     <!-- Modal -->
     <div class="modal fade" id="createPostModal" tabindex="-1" aria-labelledby="createPostModalLabel"
